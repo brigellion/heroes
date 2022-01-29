@@ -1,0 +1,43 @@
+
+
+.main-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: stretch;
+  list-style: none;
+  margin: 0; 
+}
+
+.main-list li{
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(8, 0, 0, 0.8);
+  max-width: 300px;
+  margin: 10px;
+  text-align: center;
+  font-family: arial;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.select {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  width: auto;
+  margin-top: 10px;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding-left: 20px;
+  font-size: 25px;
+  text-align: center;
+}
